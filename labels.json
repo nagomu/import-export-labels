@@ -1,0 +1,15 @@
+[
+  {
+    "name": "test1",
+    "color": "ff0000"
+  },
+  {
+    "name": "test2",
+    "color": "000000"
+  },
+  {
+    "name": "test3",
+    "color": "0075ca",
+    "description": "description"
+  }
+]

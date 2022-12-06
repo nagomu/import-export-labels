@@ -12,4 +12,4 @@ jobs:
       - uses: bahmutov/npm-install@v1
       - name: Setup labels
         run: |
-          yarn github-label-setup --token ${{ secrets.GH_TOKEN }} -l ./labels.yml
+          yarn github-label-setup --token ${{ secrets.GH_TOKEN }} -l ./labels.json
