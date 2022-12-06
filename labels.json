@@ -5,11 +5,15 @@
   },
   {
     "name": "test2",
-    "color": "000000"
+    "color": "fbca04"
   },
   {
     "name": "test3",
     "color": "0075ca",
     "description": "description"
+  },
+  {
+    "name": "test4",
+    "color": "d2e901"
   }
 ]
