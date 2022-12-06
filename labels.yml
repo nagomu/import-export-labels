@@ -1,0 +1,12 @@
+- name: "test1"
+  color: "ff0000"
+  aliases: []
+  description: "optional description"
+- name: "test2"
+  color: "000000"
+  aliases: []
+  description:
+- name: "test3"
+  color: "0075ca"
+  aliases: []
+  description:

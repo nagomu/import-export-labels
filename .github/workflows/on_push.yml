@@ -1,0 +1,15 @@
+name: On Push
+on:
+  push:
+
+jobs:
+  setup-labels:
+    name: Setup labels
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - uses: bahmutov/npm-install@v1
+      - name: Setup labels
+        run: |
+          yarn github-label-setup --token ${{ secrets.GH_TOKEN }} -l ./labels.yml
